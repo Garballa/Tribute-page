@@ -1,0 +1,9 @@
+#image {
+  width: 90%;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

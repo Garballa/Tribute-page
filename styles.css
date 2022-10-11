@@ -1,9 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("images/moog3.jpg");
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: black;
+  color: #ec255a;
+  margin-bottom: 20px;
+}
 #image {
   width: 90%;
+  border-radius: 10px;
 }
-.head {
+#head {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: #ec255a;
+}
+#tribute-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #ec255a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+p {
+  margin: 10px;
 }

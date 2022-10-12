@@ -51,7 +51,7 @@ body {
 }
 
 #tribute-quote,
-#tribute-wiki-link {
+#tribute-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +81,7 @@ p {
 #head,
 #tribute-info,
 #tribute-quote,
-#tribute-wiki-link,
+#tribute-link,
 #info-head {
   font-family: "Comfortaa", cursive;
 }

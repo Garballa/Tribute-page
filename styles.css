@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background-image: url("images/moog3.jpg");
+  background-color: #222831;
 }
 #img-div {
   display: flex;
@@ -12,34 +13,74 @@ body {
   justify-content: center;
   justify-items: center;
   align-items: center;
-  border-radius: 10px;
-  background-color: black;
-  color: #ec255a;
-  margin-bottom: 20px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffd369;
+  margin: 20px 0 20px 0;
+  padding-top: 10px;
 }
 #image {
-  width: 90%;
-  border-radius: 10px;
+  width: 80%;
+  max-width: 80%;
+  margin: 10px;
 }
 #head {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-  background-color: black;
-  border-radius: 10px;
-  color: #ec255a;
+  text-align: center;
+  margin: 0px;
+  background-color: #393e46;
+  margin: 20px 0 20px 0;
+  color: #ffd369;
+  padding: 5px;
 }
+
 #tribute-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  color: #ec255a;
-  border-radius: 10px;
-  margin-bottom: 20px;
+  background-color: #393e46;
+  color: #eeeeee;
+  margin: 20px 0 20px 0;
 }
+
+#tribute-quote,
+#tribute-wiki-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #393e46;
+  margin: 20px 0 20px 0;
+}
+
 p {
   margin: 10px;
+  color: #eeeeee;
+}
+#quote {
+  color: #ffd369;
+}
+
+#img-div,
+#head,
+#tribute-info,
+#tribute-quote,
+#tribute-wiki-link {
+  font-family: "Comfortaa", cursive;
+}
+
+a {
+  color: #ffd369;
+}
+a:hover {
+  color: #eeeeee;
+}
+span {
+  color: #ffd369;
+}
+ul {
+  list-style-type: circle;
 }

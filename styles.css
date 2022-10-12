@@ -82,7 +82,8 @@ p {
 #tribute-info,
 #tribute-quote,
 #tribute-link-div,
-#info-head {
+#info-head,
+#footer {
   font-family: "Comfortaa", cursive;
 }
 
@@ -102,4 +103,14 @@ li {
   padding: 5px;
   font-size: 18px;
   margin: 5px;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: #ffd369;
+  font-size: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
 }

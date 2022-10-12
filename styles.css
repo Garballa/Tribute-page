@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -30,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 24px;
   margin: 0px;
   background-color: #393e46;
   margin: 20px 0 20px 0;
@@ -55,20 +57,31 @@ body {
   background-color: #393e46;
   margin: 20px 0 20px 0;
 }
-
+#info-head{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color:#393e46;
+  color: #ffd369;
+  
+}
 p {
   margin: 10px;
   color: #eeeeee;
+  font-size: 18px;
 }
 #quote {
   color: #ffd369;
+  font-size: 2rem;
+  font-family: "Fugaz One", cursive;
 }
 
 #img-div,
 #head,
 #tribute-info,
 #tribute-quote,
-#tribute-wiki-link {
+#tribute-wiki-link,
+#info-head {
   font-family: "Comfortaa", cursive;
 }
 
@@ -83,4 +96,10 @@ span {
 }
 ul {
   list-style-type: circle;
+}
+li {
+  padding: 5px;
+  font-size: 18px;
+  margin: 5px;
+  text
 }
